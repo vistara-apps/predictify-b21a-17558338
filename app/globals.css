@@ -1,0 +1,60 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 220 20% 95%;
+    --accent: 180 80% 50%;
+    --primary: 220 89% 55%;
+    --surface: 220 20% 100%;
+    --foreground: 220 20% 10%;
+    --muted: 220 10% 60%;
+  }
+  
+  body {
+    @apply bg-bg text-foreground font-body;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface rounded-lg p-lg shadow-card border border-white/20;
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white px-lg py-md rounded-md font-medium transition-all duration-200 ease-in-out;
+  }
+  
+  .btn-accent {
+    @apply bg-accent hover:bg-accent/90 text-white px-lg py-md rounded-md font-medium transition-all duration-200 ease-in-out;
+  }
+  
+  .btn-secondary {
+    @apply bg-surface border border-primary/20 hover:border-primary/40 text-foreground px-lg py-md rounded-md font-medium transition-all duration-200 ease-in-out;
+  }
+  
+  .input-field {
+    @apply bg-surface border border-muted/30 rounded-md px-md py-md text-foreground placeholder:text-muted focus:border-primary focus:outline-none transition-colors;
+  }
+  
+  .grid-container {
+    @apply max-w-xl mx-auto px-lg;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

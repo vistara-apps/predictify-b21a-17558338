@@ -1,0 +1,14 @@
+{
+  "name": "Predictify",
+  "description": "Predictify is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://b21ac17c-c5d8-42f1-ab73-674b449d3e19.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "Predictify",
+      "description": "Predictify is a Base Mini App built with Zara.",
+      "url": "https://b21ac17c-c5d8-42f1-ab73-674b449d3e19.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
