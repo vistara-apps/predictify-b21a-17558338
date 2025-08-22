@@ -10,14 +10,14 @@
     "subtitle": "Built with Zara",
     "description": "Predictify is a Base Mini App built with Zara.",
     "iconUrl": "https://0co.to/images/zara-2.png",
-    "homeUrl": "https://b21ac17c-c5d8-42f1-ab73-674b449d3e19.vistara.dev",
-    "splashImageUrl": "https://dummyimage.com/200x200/0a0b0d/ffffff.png&text=Splash",
+    "homeUrl": "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app",
+    "splashImageUrl": "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
-    "heroImageUrl": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Hero",
+    "heroImageUrl": "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app/image.png",
     "tagline": "Predictify",
     "screenshotUrls": [
-      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot1",
-      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot2"
+      "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app/screenshot.png",
+      "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app/screenshot.png"
     ],
     "primaryCategory": "social",
     "tags": [
@@ -25,6 +25,6 @@
       "miniapp",
       "onchainkit"
     ],
-    "webhookUrl": "https://b21ac17c-c5d8-42f1-ab73-674b449d3e19.vistara.dev/api/webhook"
+    "webhookUrl": "https://b21ac17cc5d842f1ab73674b449d3e19-62gg-288jgynj6-vistara.vercel.app/api/webhook"
   }
 }
